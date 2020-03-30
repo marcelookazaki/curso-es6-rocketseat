@@ -3,8 +3,36 @@
     <head>
         <meta charset="utf-8">  
         <title>CURSO ES6</title>
+
+        <style>
+            ul{
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            li{
+                clear: both;
+                margin-top: 15px;
+            }
+            img{
+                float: left;
+                margin-right: 10px;
+                width: 80px;
+            }
+
+        </style>
+
     </head>
     <body>
+        <form id="repo-form">
+            <input type="text" name="repository" />
+            <button type="submit">Adiconar</button>
+        </form>
+
+        <ul id="repo-list">
+        </ul>
+
         <script src="./bundle.js"></script>
     </body>
 </html>
